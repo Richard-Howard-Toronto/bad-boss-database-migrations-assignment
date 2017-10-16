@@ -1,4 +1,5 @@
 class Widgets < ActiveRecord::Migration[5.0]
+
     def up
       rename_table :party_guests, :widgets
     end
@@ -6,4 +7,5 @@ class Widgets < ActiveRecord::Migration[5.0]
     def down
       rename_table :widgets, :party_guests
     end
+    
 end
