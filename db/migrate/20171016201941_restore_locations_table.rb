@@ -9,7 +9,6 @@ class RestoreLocationsTable < ActiveRecord::Migration[5.0]
     t.integer       :capacity
     t.text          :history
     t.string        :general_description
-
     end
   end
 end
