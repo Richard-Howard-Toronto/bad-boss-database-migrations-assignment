@@ -6,6 +6,5 @@ class AddQuantityToParts < ActiveRecord::Migration[5.0]
       t.integer     :quantity
 
     end
-
   end
 end
